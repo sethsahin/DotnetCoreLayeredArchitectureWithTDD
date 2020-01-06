@@ -1,0 +1,62 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\sahin\\RiderProjects\\CoreWebApi\\CoreWebApi.Core\\CoreWebApi.Core.csproj",
+    "projectName": "CoreWebApi.Core",
+    "projectPath": "C:\\Users\\sahin\\RiderProjects\\CoreWebApi\\CoreWebApi.Core\\CoreWebApi.Core.csproj",
+    "outputPath": "C:\\Users\\sahin\\RiderProjects\\CoreWebApi\\CoreWebApi.Core\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {
+          "C:\\Users\\sahin\\RiderProjects\\CoreWebApi\\CoreWebApi.Infrastructure\\CoreWebApi.Infrastructure.csproj": {
+            "projectPath": "C:\\Users\\sahin\\RiderProjects\\CoreWebApi\\CoreWebApi.Infrastructure\\CoreWebApi.Infrastructure.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[3.1.0, )"
+        },
+        "Microsoft.AspNetCore.Identity.UI": {
+          "target": "Package",
+          "version": "[3.1.0, )"
+        },
+        "Microsoft.EntityFrameworkCore.Design": {
+          "target": "Package",
+          "version": "[3.1.0, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

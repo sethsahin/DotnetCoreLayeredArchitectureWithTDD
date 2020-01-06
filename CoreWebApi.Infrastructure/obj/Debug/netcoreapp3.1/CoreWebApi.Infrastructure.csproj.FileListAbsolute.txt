@@ -1,0 +1,10 @@
+C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi.Infrastructure\bin\Debug\netcoreapp3.1\CoreWebApi.Infrastructure.deps.json
+C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi.Infrastructure\bin\Debug\netcoreapp3.1\CoreWebApi.Infrastructure.dll
+C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi.Infrastructure\bin\Debug\netcoreapp3.1\CoreWebApi.Infrastructure.pdb
+C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi.Infrastructure\obj\Debug\netcoreapp3.1\CoreWebApi.Infrastructure.csprojAssemblyReference.cache
+C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi.Infrastructure\obj\Debug\netcoreapp3.1\CoreWebApi.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi.Infrastructure\obj\Debug\netcoreapp3.1\CoreWebApi.Infrastructure.AssemblyInfo.cs
+C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi.Infrastructure\obj\Debug\netcoreapp3.1\CoreWebApi.Infrastructure.dll
+C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi.Infrastructure\obj\Debug\netcoreapp3.1\CoreWebApi.Infrastructure.pdb
+C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi.Infrastructure\bin\Debug\netcoreapp3.1\CoreWebApi.Infrastructure.runtimeconfig.json
+C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi.Infrastructure\bin\Debug\netcoreapp3.1\CoreWebApi.Infrastructure.runtimeconfig.dev.json
