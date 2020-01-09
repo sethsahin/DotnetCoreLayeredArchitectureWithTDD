@@ -129,3 +129,10 @@ C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi.Tests\obj\Debug\netcoreapp3.1
 C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi.Tests\obj\Debug\netcoreapp3.1\CoreWebApi.Tests.pdb
 C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi.Tests\bin\Debug\netcoreapp3.1\Castle.Core.dll
 C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi.Tests\bin\Debug\netcoreapp3.1\Moq.dll
+C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi.Tests\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi.Tests\bin\Debug\netcoreapp3.1\System.Web.Http.dll
+C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi.Tests\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi.Tests\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi.Tests\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi.Tests\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi.Tests\bin\Debug\netcoreapp3.1\Swashbuckle.Core.dll

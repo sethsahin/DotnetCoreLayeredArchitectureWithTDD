@@ -11,5 +11,11 @@ namespace CoreWebApi.Contracts
             public const string GetAllCategories = BaseUrl + "/getCategories";
             public const string GetCategoryById = BaseUrl + "/getCategory/{categoryId}";
         }
+
+        public static class Auth
+        {
+            public const string Register = BaseUrl + "/auth/register";
+            public const string Login = BaseUrl + "/auth/login";
+        }
     }
 }

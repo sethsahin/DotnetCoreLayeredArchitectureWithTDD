@@ -48,3 +48,10 @@ C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi\obj\Debug\netcoreapp3.1\CoreW
 C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi\bin\Debug\netcoreapp3.1\CoreWebApi.Infrastructure.dll
 C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi\bin\Debug\netcoreapp3.1\CoreWebApi.Infrastructure.pdb
 C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi\bin\Debug\netcoreapp3.1\System.Web.Http.dll
+C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi\bin\Debug\netcoreapp3.1\Swashbuckle.Core.dll

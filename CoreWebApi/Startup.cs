@@ -15,6 +15,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.OpenApi.Models;
 
 namespace CoreWebApi
 {
@@ -38,8 +39,13 @@ namespace CoreWebApi
             services.AddDefaultIdentity<ApplicationUser>()
                 .AddEntityFrameworkStores<DataContext>();
 
+            services.AddSwaggerGen(options =>
+            {
+                options.SwaggerDoc("v1", new OpenApiInfo { Title = "CoreWebAPI", Version = "v1" });
+            });
+            
             services.AddScoped<ICategoryService, CategoryService>();
-
+            services.AddScoped<IAuthService, AuthService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -49,6 +55,18 @@ namespace CoreWebApi
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseStaticFiles();
+            
+            // Enable middleware to serve generated Swagger as a JSON endpoint
+            app.UseSwagger();
+            
+            // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
+            // specifying the Swagger JSON endpoint
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "CoreWebApi V1");
+            });
 
             app.UseHttpsRedirection();
 
