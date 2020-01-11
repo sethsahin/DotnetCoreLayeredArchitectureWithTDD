@@ -12,6 +12,7 @@
     <e p="C:\Users\sahin\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_CoreWebApi.-358315752.00" t="ExcludeRecursive" />
     <e p="C:\Users\sahin\RiderProjects\CoreWebApi" t="IncludeFlat">
       <e p="CoreWebApi" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
@@ -40,6 +41,7 @@
         <e p="Startup.cs" t="Include" />
       </e>
       <e p="CoreWebApi.Core" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="CoreWebApi.Core.csproj" t="IncludeRecursive" />
         <e p="Dto" t="Include">
@@ -70,6 +72,7 @@
         </e>
       </e>
       <e p="CoreWebApi.Infrastructure" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Class1.cs" t="Include" />
         <e p="CoreWebApi.Infrastructure.csproj" t="IncludeRecursive" />
@@ -104,6 +107,7 @@
       </e>
       <e p="CoreWebApi.sln" t="IncludeFlat" />
       <e p="CoreWebApi.Tests" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
         <e p="BaseTestModel.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="CoreWebApi.Tests.csproj" t="IncludeRecursive" />
