@@ -17,5 +17,11 @@ namespace CoreWebApi.Contracts
             public const string Register = BaseUrl + "/auth/register";
             public const string Login = BaseUrl + "/auth/login";
         }
+
+        public static class Post
+        {
+            public const string CreatePost = BaseUrl + "/post/create";
+            public const string GetAllPosts = BaseUrl + "/post/getAll";
+        }
     }
 }

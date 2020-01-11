@@ -10,6 +10,7 @@ namespace CoreWebApi.Infrastructure.Data
         
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Post> Posts { get; set; }
         
         protected override void OnModelCreating(ModelBuilder builder)
         {

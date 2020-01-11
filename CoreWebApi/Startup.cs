@@ -33,6 +33,14 @@ namespace CoreWebApi
         {
             services.AddControllers();
             
+            services.AddCors(options => options.AddPolicy("ApiCorsPolicy", build =>
+            {                
+                build.WithOrigins("http://localhost:3000")
+                    .AllowAnyMethod()
+                    .AllowAnyHeader();
+            }));
+            // ... other code is omitted for the brevity
+
             services.AddDbContext<DataContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
@@ -46,6 +54,7 @@ namespace CoreWebApi
             
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<IAuthService, AuthService>();
+            services.AddScoped<IPostService, PostService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -55,6 +64,10 @@ namespace CoreWebApi
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseRouting();  // first
+            // Use the CORS policy
+            app.UseCors("ApiCorsPolicy"); // second
 
             app.UseStaticFiles();
             

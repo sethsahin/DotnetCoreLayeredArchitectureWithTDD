@@ -22,6 +22,7 @@
           <e p="v1" t="Include">
             <e p="AuthController.cs" t="Include" />
             <e p="CategoryController.cs" t="Include" />
+            <e p="PostController.cs" t="Include" />
           </e>
         </e>
         <e p="CoreWebApi.csproj" t="IncludeRecursive" />
@@ -44,11 +45,16 @@
         <e p="Dto" t="Include">
           <e p="Requests" t="Include">
             <e p="AuthRequest.cs" t="Include" />
+            <e p="PostRequest.cs" t="Include" />
+          </e>
+          <e p="Responses" t="Include">
+            <e p="BaseResponse.cs" t="Include" />
           </e>
         </e>
         <e p="Interface" t="Include">
           <e p="IAuthService.cs" t="Include" />
           <e p="ICategoryService.cs" t="Include" />
+          <e p="IPostService.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -60,6 +66,7 @@
         <e p="Repository" t="Include">
           <e p="AuthService.cs" t="Include" />
           <e p="CategoryService.cs" t="Include" />
+          <e p="PostService.cs" t="Include" />
         </e>
       </e>
       <e p="CoreWebApi.Infrastructure" t="IncludeRecursive">
@@ -72,6 +79,7 @@
         <e p="Entity" t="Include">
           <e p="ApplicationUser.cs" t="Include" />
           <e p="Category.cs" t="Include" />
+          <e p="Post.cs" t="Include" />
         </e>
         <e p="Migrations" t="Include">
           <e p="20200105224004_ApplicationUser.cs" t="Include" />
@@ -80,6 +88,10 @@
           <e p="20200106185137_Category.Designer.cs" t="Include" />
           <e p="20200109182239_Identity.cs" t="Include" />
           <e p="20200109182239_Identity.Designer.cs" t="Include" />
+          <e p="20200109200516_Post.cs" t="Include" />
+          <e p="20200109200516_Post.Designer.cs" t="Include" />
+          <e p="20200109201753_PostUpdate.cs" t="Include" />
+          <e p="20200109201753_PostUpdate.Designer.cs" t="Include" />
           <e p="DataContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -92,15 +104,8 @@
       </e>
       <e p="CoreWebApi.sln" t="IncludeFlat" />
       <e p="CoreWebApi.Tests" t="IncludeRecursive">
-        <e p="Auth" t="Include">
-          <e p="AuthUnitTest.cs" t="Include" />
-          <e p="BaseTestModel.cs" t="Include" />
-        </e>
+        <e p="BaseTestModel.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="Categories" t="Include">
-          <e p="BaseTestModel.cs" t="Include" />
-          <e p="CategoryUnitTest.cs" t="Include" />
-        </e>
         <e p="CoreWebApi.Tests.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -109,6 +114,8 @@
             </e>
           </e>
         </e>
+        <e p="PostTest.cs" t="Include" />
+        <e p="ShouldReturnHelloWorld.cs" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>

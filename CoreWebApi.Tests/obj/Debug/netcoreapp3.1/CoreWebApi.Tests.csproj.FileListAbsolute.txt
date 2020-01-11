@@ -136,3 +136,4 @@ C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi.Tests\bin\Debug\netcoreapp3.1
 C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi.Tests\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi.Tests\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi.Tests\bin\Debug\netcoreapp3.1\Swashbuckle.Core.dll
+C:\Users\sahin\RiderProjects\CoreWebApi\CoreWebApi.Tests\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.TestHost.dll
