@@ -1,4 +1,5 @@
 using System.Threading.Tasks;
+using System.Web.Http;
 using CoreWebApi.Contracts;
 using CoreWebApi.Core.Dto.Requests;
 using CoreWebApi.Core.Interface;
@@ -15,8 +16,8 @@ namespace CoreWebApi.Controllers.v1
             _postService = postService;
         }
 
-        [HttpPost(ApiRoutes.Post.CreatePost)]
-        public async Task<IActionResult> CreatePost([FromBody] PostRequest request)
+        [Microsoft.AspNetCore.Mvc.HttpPost(ApiRoutes.Post.CreatePost)]
+        public async Task<IActionResult> CreatePost([Microsoft.AspNetCore.Mvc.FromBody] PostRequest request)
         {
             var model = await _postService.CreatePostAsync(request.Text);
             if (model == null)
@@ -35,7 +36,7 @@ namespace CoreWebApi.Controllers.v1
             });
         }
 
-        [HttpGet(ApiRoutes.Post.GetAllPosts)]
+        [Microsoft.AspNetCore.Mvc.HttpGet(ApiRoutes.Post.GetAllPosts)]
         public async Task<IActionResult> GetAllPosts()
         {
             var model = await _postService.GetAllPostsAsync();
@@ -47,7 +48,7 @@ namespace CoreWebApi.Controllers.v1
             });
         }
 
-        [HttpGet(ApiRoutes.Post.GetPostById)]
+        [Microsoft.AspNetCore.Mvc.HttpGet(ApiRoutes.Post.GetPostById)]
         public async Task<IActionResult> GetPostById([FromRoute] GetPostByIdRequest request)
         {
             var model = await _postService.GetPostById(request.postId);
