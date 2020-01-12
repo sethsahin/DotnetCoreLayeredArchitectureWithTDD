@@ -37,5 +37,12 @@ namespace CoreWebApi.Core.Repository
         {
             return await _dataContext.Posts.ToListAsync();
         }
+
+        public async Task<Post> GetPostById(int postId)
+        {
+            var model = await _dataContext.Posts.SingleOrDefaultAsync(x => x.Id == postId);
+
+            return model;
+        }
     }
 }

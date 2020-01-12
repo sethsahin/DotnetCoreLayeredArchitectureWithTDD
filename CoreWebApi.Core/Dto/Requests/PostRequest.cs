@@ -4,4 +4,9 @@ namespace CoreWebApi.Core.Dto.Requests
     {
         public string Text { get; set; }
     }
+
+    public class GetPostByIdRequest
+    {
+        public int postId { get; set; }
+    }
 }

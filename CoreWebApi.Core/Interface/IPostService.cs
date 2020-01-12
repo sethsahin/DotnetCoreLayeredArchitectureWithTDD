@@ -8,5 +8,6 @@ namespace CoreWebApi.Core.Interface
     {
         Task<Post> CreatePostAsync(string text);
         Task<List<Post>> GetAllPostsAsync();
+        Task<Post> GetPostById(int postId);
     }
 }

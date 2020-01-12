@@ -46,5 +46,26 @@ namespace CoreWebApi.Controllers.v1
                 Data = model
             });
         }
+
+        [HttpGet(ApiRoutes.Post.GetPostById)]
+        public async Task<IActionResult> GetPostById([FromRoute] GetPostByIdRequest request)
+        {
+            var model = await _postService.GetPostById(request.postId);
+
+            if (model == null)
+            {
+                return BadRequest(new
+                {
+                    Success = false,
+                    Message = "post.not-found"
+                });
+            }
+
+            return Ok(new
+            {
+                Success = true,
+                Data = model
+            });
+        }
     }
 }
