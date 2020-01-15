@@ -1,6 +1,10 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using CoreWebApi.Infrastructure.Entity;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 
 namespace CoreWebApi.Core.Helpers
 {

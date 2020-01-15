@@ -23,6 +23,14 @@ namespace CoreWebApi.Contracts
             public const string CreatePost = BaseUrl + "/post/create";
             public const string GetAllPosts = BaseUrl + "/post/getAll";
             public const string GetPostById = BaseUrl + "/post/{postId}";
+            public const string DeletePostById = BaseUrl + "/post/{postId}";
+        }
+
+        public static class Product
+        {
+            public const string CreateProduct = BaseUrl + "/product/create";
+            public const string GetAllProducts = BaseUrl + "/product/getAll";
+            public const string GetProductById = BaseUrl + "/product/{productId}";
         }
     }
 }

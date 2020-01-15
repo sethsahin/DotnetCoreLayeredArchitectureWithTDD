@@ -1,3 +1,4 @@
+using System.Text;
 using System.Threading.Tasks;
 using System.Web.Http;
 using CoreWebApi.Contracts;
@@ -9,6 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Logging;
 
 namespace CoreWebApi.Controllers.v1

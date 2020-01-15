@@ -39,5 +39,19 @@ namespace CoreWebApi.Tests
             // Assert
             responseModel.StatusCode.Should().Be(HttpStatusCode.OK);
         }
+
+        [Fact]
+        public async Task DeletePostShouldReturnSuccess()
+        {
+            var client = ClientInit();
+            
+            // Send Request
+            var model = await client.DeleteAsync(ApiRoutes.Post.DeletePostById);
+            var response = model.Content.ReadAsAsync<PostResponse>();
+            var responseModel = await client.GetAsync(ApiRoutes.Post.GetPostById.Replace("{postId}", response.Id.ToString()));
+            
+            // Assert
+            responseModel.StatusCode.Should().Be(HttpStatusCode.NotFound);
+        }
     }
 }
